@@ -1,0 +1,6 @@
+{
+  "values": [
+    "harnessenchantment:app/setup",
+    "harnessenchantment:app/load_message"
+  ]
+}
