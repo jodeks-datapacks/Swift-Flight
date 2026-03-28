@@ -1,0 +1,89 @@
+#> swift_flight:app/load_message
+# Called on load
+
+execute if score &swift_flight_load_message jodek.config matches 1 run tellraw @a [\
+  {\
+    "text": "[",\
+    "color": "#aaaaaa"\
+  },\
+  {\
+    "text": "Swift Flight",\
+    color: "#ffffff",\
+    "hover_event": {\
+      "action": "show_text",\
+      "value": [\
+        {\
+          "nbt":"tellraw[]",\
+          "storage": "swift_flight:image",\
+          interpret: true,\
+          separator: ""\
+        }\
+      ]\
+    },\
+    click_event:\
+    {\
+    action:"open_url",\
+    url:"https://modrinth.com/datapack/swift-flight/"\
+    }\
+  },\
+  {\
+    text: "]",\
+    color: "#aaaaaa",\
+    hover_event: {\
+      action: "show_text",\
+      value: [\
+        {\
+          nbt:"tellraw[]",\
+          storage: "swift_flight:image",\
+          interpret: true,\
+          separator: ""\
+        }\
+      ]\
+    },\
+    click_event:\
+    {\
+    action:"open_url",\
+    url:"https://modrinth.com/datapack/swift-flight/"\
+    }\
+  },\
+  {\
+    translate: "jodek.loaded", fallback: " loaded! ",\
+    color: "#ffffff",\
+    hover_event: {\
+      action: "show_text",\
+      value: [\
+        {\
+          nbt:"tellraw[]",\
+          storage: "swift_flight:image",\
+          interpret: true,\
+          separator: ""\
+        }\
+      ]\
+    },\
+    click_event:\
+    {\
+    action:"open_url",\
+    url:"https://modrinth.com/datapack/swift-flight/"\
+    }\
+  },\
+  {\
+    translate: "jodek.hover_for_more_info", fallback: "hover for more info",\
+    color: "#929796",\
+    hover_event: {\
+      action: "show_text",\
+      value: [\
+        {\
+          nbt:"tellraw[]",\
+          storage: "swift_flight:image",\
+          interpret: true,\
+          separator: ""\
+        }\
+      ]\
+    },\
+    click_event:\
+    {\
+    action:"open_url",\
+    url:"https://modrinth.com/datapack/swift-flight/"\
+    }\
+  }\
+]

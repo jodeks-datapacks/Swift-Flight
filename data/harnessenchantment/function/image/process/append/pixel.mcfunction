@@ -1,1 +1,0 @@
-function harnessenchantment:image/process/build_pixel with storage harnessenchantment:image current

@@ -1,6 +1,6 @@
 {
   "values": [
-    "harnessenchantment:app/setup",
-    "harnessenchantment:app/load_message"
+    "swift_flight:app/setup",
+    "swift_flight:app/load_message"
   ]
 }
