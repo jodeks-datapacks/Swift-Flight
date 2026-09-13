@@ -9,12 +9,6 @@
       {
         "text": "\"Swift Flight\" (swift_flight)"
       },
-      "\n",
-      {
-        "translate": "swift_flight.description",
-        "fallback": "Adds a speed enchantment for happy ghast harnesses to increase flight speed",
-        "color": "#aaaaaa"
-      },
       "\n\n",
       {
         "translate": "jodek.version",
@@ -24,7 +18,7 @@
         "text": " "
       },
       {
-        "text": "1.0.3",
+        "text": "1.1.0",
         "color": "#55ff55"
       },
       "\n",
@@ -48,12 +42,6 @@
         "min_format": 80,
         "max_format": 999,
         "formats": { "min_inclusive": 80, "max_inclusive": 999 }
-      },
-      {
-        "directory": "overlay-107.1",
-        "min_format": 107,
-        "max_format": 999,
-        "formats": { "min_inclusive": 107, "max_inclusive": 999 }
       }
     ]
   }
